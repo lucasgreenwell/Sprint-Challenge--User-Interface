@@ -112,20 +112,53 @@ p {
     align-items: center;
     justify-content: center;
 }
+@keyframes anim1{
+    from { background: teal;}
+    to { background: yellow;}
+}
 .box1{
     background-color: teal;
+    animation-name: anim1;
+    animation-duration: 6s;
+}
+@keyframes anim2{
+    from { background: gold;}
+    to { background: purple;}
 }
 .box2{
     background-color: gold;
+    animation-name: anim2;
+    animation-duration: 13s;
+}
+@keyframes anim3{
+    from { background: cadetblue;}
+    to { background: rgb(62, 95, 59);}
 }
 .box3{
     background-color: cadetblue;
+    animation-name: anim3;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes anim4{
+    from { position: relative;}
+    to { position: absolute;}
 }
 .box4{
     background-color: coral;
+    animation-name: anim4;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+@keyframes anim5{
+    from { width: 100px;}
+    to { width: 300px;}
 }
 .box5{
     background-color: crimson;
+    animation-name: anim5;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
 }
 .box6{
     background-color: forestgreen;
@@ -176,6 +209,7 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
 header nav{
     width: 80%;
     display: flex;
@@ -189,7 +223,7 @@ header{
 }
 
 header nav a {
-    color: black;
+    /* color: black; */
     text-decoration: none;
 }
 .logo{
