@@ -83,6 +83,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 2%;
 }
 
 .middle-content {
@@ -104,13 +105,77 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+@keyframes anim1{
+    from { background: teal;}
+    to { background: yellow;}
+}
+.box1{
+    background-color: teal;
+    animation-name: anim1;
+    animation-duration: 6s;
+}
+@keyframes anim2{
+    from { background: gold;}
+    to { background: purple;}
+}
+.box2{
+    background-color: gold;
+    animation-name: anim2;
+    animation-duration: 13s;
+}
+@keyframes anim3{
+    from { background: cadetblue;}
+    to { background: rgb(62, 95, 59);}
+}
+.box3{
+    background-color: cadetblue;
+    animation-name: anim3;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes anim4{
+    from { position: relative;}
+    to { position: absolute;}
+}
+.box4{
+    background-color: coral;
+    animation-name: anim4;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+@keyframes anim5{
+    from { width: 100px;}
+    to { width: 300px;}
+}
+.box5{
+    background-color: crimson;
+    animation-name: anim5;
+    animation-duration: 10s;
+    animation-iteration-count: 2;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
+}
+
 
 .bottom-content {
     display: flex;
@@ -131,16 +196,87 @@ footer {
     background: black;
 }
 
-footer nav {
+footer nav, header nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 20px;
 }
-
+/* My code below, but a bit above too */
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav{
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    margin: 3% 0;
+}
+
+/* About Page starts here */
+.about-about{
+    margin: 3% 0;
+    padding: 0 1% 5% 2%;
+    border-bottom: black dashed 2px;
+}
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.quad{
+    width: 47%;
+    border-bottom: black dashed 2px;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+.quadimg{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.learn{
+    border: black solid 2px;
+    width: 35%;
+    box-sizing: content-box;
+    padding: 2%;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+.bottom{
+    margin: 2% 0 3%;
+    padding: 0 1% 0 2%;
+}
+/* stretch page */
+.prod-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prod-head{
+    margin-bottom: 4%;
+}
+.bot{
+    border-top: black dashed 2px;
+    padding: 3%;
+}
+.pile{
+    margin-bottom: 4%;
 }
