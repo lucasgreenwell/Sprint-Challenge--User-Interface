@@ -199,13 +199,13 @@ header nav a {
 /* About Page starts here */
 .about-about{
     margin: 3% 0;
-    padding-bottom: 5%;
+    padding: 0 1% 5% 2%;
     border-bottom: black dashed 2px;
 }
 .text{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .quad{
     width: 47%;
@@ -225,4 +225,8 @@ header nav a {
     text-align: center;
     margin-top: 3%;
     border-radius: 10px;
+}
+.bottom{
+    margin: 2% 0 3%;
+    padding: 0 1% 0 2%;
 }
