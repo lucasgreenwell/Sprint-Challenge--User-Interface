@@ -171,7 +171,7 @@ footer nav, header nav {
     padding: 20px 2%;
     font-size: 20px;
 }
-
+/* My code below, but a bit above too */
 footer nav a {
     color: white;
     text-decoration: none;
@@ -194,4 +194,11 @@ header nav a {
 }
 .logo{
     margin: 3% 0;
+}
+
+/* About Page starts here */
+.about-about{
+    margin: 3% 0;
+    padding-bottom: 5%;
+    border-bottom: black dashed 2px;
 }
