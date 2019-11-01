@@ -83,6 +83,7 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+    margin-top: 2%;
 }
 
 .middle-content {
@@ -131,16 +132,35 @@ footer {
     background: black;
 }
 
-footer nav {
+footer nav, header nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header nav{
+    width: 80%;
+    display: flex;
+    align-items: flex-end;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+.jumbo{
+    margin: 3% 0;
 }
